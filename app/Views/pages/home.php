@@ -1,14 +1,12 @@
-<?= $this->extend('layout/template'); ?>
+<?= $this->extend('layout/admin/overview'); ?>
 
 
 <?= $this->section('content'); ?>
 
-<section class="content">
-  <div class="row">
-    <div class="col">
-      
-    </div>
+<div class="row">
+  <div class="col">
+
   </div>
-</section>
+</div>
 
 <?= $this->endSection(); ?>
