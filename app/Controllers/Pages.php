@@ -6,7 +6,7 @@ class Pages extends BaseController
 {
 	public function index()
 	{
-		return view('home');
+		echo view('pages/home');
 	}
 	public function about()
 	{
