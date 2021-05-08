@@ -9,9 +9,9 @@
     <div class="wrapper">
 
         <!-- Preloader -->
-         <div class="preloader flex-column justify-content-center align-items-center">
-            
-        </div>
+        <!-- <div class="preloader flex-column justify-content-center align-items-center">
+
+        </div> -->
 
         <?= $this->include('layout/admin/_partials/navbar'); ?>
         <?= $this->include('layout/admin/_partials/sidebar'); ?>
@@ -27,8 +27,6 @@
 
         <?= $this->include('layout/admin/_partials/footer'); ?>
 
-        <aside class="control-sidebar control-sidebar-dark">
-        </aside>
     </div>
 
     <?= $this->include('layout/admin/_partials/script'); ?>

@@ -27,6 +27,11 @@ class Tbladmin extends Migration
 				'type'               => 'varchar',
 				'constraint'         => 100,
 			],
+			'id_lvl' => [
+				'type'               => 'int',
+				'constraint'         => 11,
+				'unsigned'           => TRUE
+			],
 			'created_at'    => [
 				'type'                => 'datetime',
 			],

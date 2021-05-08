@@ -4,7 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class TblUser extends Migration
+class TblPelanggan extends Migration
 {
 	public function up()
 	{
@@ -43,11 +43,11 @@ class TblUser extends Migration
 			],
 		]);
 		$this->forge->addKey('id', true);
-		$this->forge->createTable('tbl_user');
+		$this->forge->createTable('tbl_pelanggan');
 	}
 
 	public function down()
 	{
-		$this->forge->dropTable('tbl_user');
+		$this->forge->dropTable('tbl_pelanggan');
 	}
 }
